@@ -1,1 +1,1 @@
-#jQuery plug in project - Week 6
+#jQuery plugin project - Week 6
