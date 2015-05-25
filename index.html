@@ -2,9 +2,97 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Forceify</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Lato:100,400,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style/styles.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/starwars.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	// testing
+	// $('.button').click(forceify());
+	</script>
 </head>
 <body>
-	
+	<header class="navigation">
+		<div class="wrapper flexboxRow">
+			<img class="logoHome" src="assets/falcon.svg" alt="">
+			<ul class="nav flexboxRow">
+				<li><a class="forceify" href="">Demo</a></li>
+				<li><a href="">Getting Started</a></li>
+				<li><a href="">Usage</a></li>
+				<li><a href="">Github</a></li>
+			</ul>
+		</div>
+	</header>
+	<section class="intro">
+		<div class="wrapper">
+			<h1><span class="hoth">force</span>ify.js</h1>
+			<!-- <img class="r2icon" src="assets/r2.svg" alt=""> -->
+			<i class="fa fa-rebel fa-4x"></i>
+			<!-- <div class="outerContainer">
+				<div class="innerContainer"> -->
+				<p>Forceify is a simple, lightweight and easy to use jQuery plugin that adds a little fun to any site. Fork me on <a class="lightLinks"href="http://www.github.com/shawnebeyer">github</a> or follow me on <a class="lightLinks"href="http://www.twitter.com/shawnebeyer">twitter</a> to keep up date with new features and changes to forceify.js!</p>
+			<!-- 	</div>
+			</div> -->
+
+		</div>
+	</section>
+	<section class="gettingStarted">
+		<div class="wrapper">
+			<h2>getting started</h2>
+			<img src="assets/fett.svg" class="icon" alt="">
+			<p>1. Download the forceify.js zip file from <a href="http://www.github.com/shawnebeyer">github</a> and place the files into your site's directory.</p>
+			<p>2. Include a link to the style.css file in your HTML document's head section, linking forecify's styling to your website.</p>
+			<p>3. Include jQuery and forceify.js in your HTML document, before the closing body tag. Note that the plugin script must be placed after the jQuery script, and must be properly linked from your directory (example, js/forceify.js).</p>
+			<pre class="gimmeSomeSpace">
+				<code>
+&lt;link rel="stylesheet" href="style/styles.css" type="text/css"&gt;
+				</code>
+				<code>
+&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/starwars.js"&gt;&lt;/script&gt;
+				</code>
+			</pre>
+		</div>
+	</section>
+	<section class="usage">
+		<div class="wrapper">
+			<h2>usage</h2>
+			<img src="assets/vaderIcon.svg" class="icon" alt="">
+			<h3>initialization</h3>
+			<p>Add a class of .force to any HTML element. The plug-in starts on a click, so why not start off with a link click?</p>
+			<pre>
+				<code>
+&lt;a class="force"&gt;DEMO&lt;/a&gt; 
+				</code>
+			</pre>
+			<p>Paste the following code into your primary JavaScript file (for example, main.js) to initialize forceify.js and to call the function:</p>
+			<pre>
+				<code>
+"$(function() {
+	$('.force').forceify();
+});"
+				</code>
+			</pre>
+		</div>
+	</section>
+	<section class="demo">
+		<div class="wrapper">
+			<h2>customize</h2>
+			<img src="assets/stormtrooper.svg" class="icon" alt="">
+			<p>coming soon, this is.</p>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="wrapper">
+			<ul class="footerNav flexboxRow">
+				<li><a href="http://www.twitter.com/shawnebeyer"><i class="fa fa-twitter fa-2x"></i></a></li>
+				<li><a href="http://www.github.com/shawnebeyer"><i class="fa fa-github fa-2x"></i></a></li>
+				<li><a href="http://www.medium.com/shawnebeyer"><i class="fa fa-medium fa-2x"></i></a></li>
+			</ul>
+		</div>
+	</section>
 </body>
 </html>
