@@ -21,3 +21,5 @@ Forceify is a simple, lightweight and easy to use jQuery plugin that adds a litt
 "$(function() {
 	$('.force').forceify();
 });"
+
+Thats it! You've done swimmingly. May the force be with you.
