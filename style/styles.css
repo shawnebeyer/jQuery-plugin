@@ -78,7 +78,7 @@ section {
 	display: block;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -99,6 +99,13 @@ h2 {
 h3 {
 	text-align: left;
 	font-size: 30px;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .gettingStarted h2 {
@@ -172,6 +179,23 @@ p {
 	background: #58899a;
 }
 
+.button {
+	text-align: center;
+	margin: 0 auto;
+	width: 120px;
+	display: block;
+	padding: 7px 20px 7px 20px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+}
+
+.button:hover {
+	color: #2c3e50;
+	background-color: #ffffff;
+
+}
+
 .gettingStarted {
 	background: #ffffff;
 }
@@ -199,7 +223,7 @@ code {
 
 .footer {
 	background: #2c3e50;
-	height: 120px;
+	height: 140px;
 	padding: 0;
 }
 
@@ -211,6 +235,20 @@ code {
 	list-style: none;
 }
 
-.footer ul li {
-	
+.footer p {
+	margin: 0;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	letter-spacing: 3px;
+	font-size: 14px;
+}
+
+.footer a {
+	color: #ffffff;
+}
+
+.footer a:hover {
+	color: #58899a;
 }
